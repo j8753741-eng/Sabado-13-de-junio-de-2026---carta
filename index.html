@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sábado 13 de junio del 2026 - carta</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+    font-family:'Poppins',sans-serif;
+    background:
+        radial-gradient(circle at top left,#4d1d63 0%,transparent 30%),
+        radial-gradient(circle at bottom right,#8a2be2 0%,transparent 35%),
+        linear-gradient(135deg,#090014,#140321,#1c052e,#0d0017);
+    overflow-x:hidden;
+    color:#f7eefc;
+    position:relative;
+}
+
+/* Estrellas */
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background-image:
+    radial-gradient(white 1px, transparent 1px);
+    background-size:40px 40px;
+    opacity:.12;
+    pointer-events:none;
+}
+
+/* Corazones flotantes */
+body::after{
+    content:"❤  ♡  ❤  ♡  ❤";
+    position:fixed;
+    width:100%;
+    top:20px;
+    left:0;
+    text-align:center;
+    color:rgba(255,182,255,.25);
+    letter-spacing:30px;
+    font-size:20px;
+    animation:flotar 6s ease-in-out infinite;
+}
+
+@keyframes flotar{
+    50%{
+        transform:translateY(8px);
+    }
+}
+
+.carta{
+    width:100%;
+    max-width:950px;
+    position:relative;
+    backdrop-filter:blur(18px);
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:35px;
+    overflow:hidden;
+    box-shadow:
+    0 0 30px rgba(186,85,211,.35),
+    0 0 80px rgba(138,43,226,.20);
+}
+
+.encabezado{
+    padding:60px 40px 40px;
+    text-align:center;
+    background:
+    linear-gradient(to bottom,
+    rgba(255,255,255,.08),
+    rgba(255,255,255,0));
+}
+
+.decoracion{
+    font-size:32px;
+    color:#ffc7ff;
+    margin-bottom:18px;
+}
+
+.titulo{
+    font-family:'Great Vibes',cursive;
+    font-size:4rem;
+    color:#ffd8ff;
+    text-shadow:
+    0 0 12px rgba(255,182,255,.8),
+    0 0 25px rgba(186,85,211,.7);
+}
+
+.subtitulo{
+    margin-top:15px;
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.4rem;
+    color:#f2d9ff;
+    letter-spacing:2px;
+}
+
+.contenido{
+    padding:20px 50px 60px;
+    line-height:2;
+    font-size:1.08rem;
+}
+
+.contenido p{
+    margin-bottom:28px;
+    text-align:justify;
+}
+
+strong{
+    color:#ffe2ff;
+}
+
+.firma{
+    text-align:right;
+    margin-top:50px;
+}
+
+.firma .amor{
+    font-family:'Great Vibes',cursive;
+    font-size:2.2rem;
+    color:#ffd7ff;
+}
+
+.nombre{
+    margin-top:8px;
+    font-weight:600;
+    letter-spacing:2px;
+    color:#fff;
+}
+
+.frase-neon{
+    margin-top:60px;
+    text-align:center;
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.7rem;
+    line-height:1.8;
+    color:#d98fff;
+
+    text-shadow:
+    0 0 5px #d98fff,
+    0 0 10px #d98fff,
+    0 0 20px #b85cff,
+    0 0 35px #b85cff,
+    0 0 50px #8f3dff;
+
+    animation:neon 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon{
+    from{
+        opacity:.85;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+.boton-poema{
+    text-align:center;
+    margin-top:50px;
+}
+
+.boton-poema a{
+    display:inline-block;
+    text-decoration:none;
+    padding:18px 40px;
+    border-radius:50px;
+    color:white;
+    font-weight:600;
+    letter-spacing:1px;
+
+    background:linear-gradient(
+    135deg,
+    #b14cff,
+    #ff5edb);
+
+    box-shadow:
+    0 0 15px rgba(177,76,255,.5),
+    0 0 35px rgba(255,94,219,.35);
+
+    transition:.3s;
+}
+
+.boton-poema a:hover{
+    transform:translateY(-5px) scale(1.04);
+
+    box-shadow:
+    0 0 25px rgba(177,76,255,.8),
+    0 0 45px rgba(255,94,219,.6);
+}
+
+@media(max-width:768px){
+
+    .titulo{
+        font-size:3rem;
+    }
+
+    .contenido{
+        padding:20px 28px 50px;
+    }
+
+    .frase-neon{
+        font-size:1.35rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="carta">
+
+    <div class="encabezado">
+
+        <div class="decoracion">
+            ✧ ❤ ✧
+        </div>
+
+        <h1 class="titulo">
+            Mi Amor También Aprende a Pedir Perdón
+        </h1>
+
+        <div class="subtitulo">
+            Una promesa nacida del amor sincero
+        </div>
+
+    </div>
+
+    <div class="contenido">
+
+        <p>
+            <strong>MI NIÑA LINDA,</strong>
+        </p>
+
+        <p>
+            Esta noche de sábado, 13 de junio de 2026, mientras el mundo parece quedarse en calma y la oscuridad abraza cada rincón del cielo, siento la necesidad de abrirte mi corazón una vez más, pero esta vez desde un lugar distinto: desde la humildad, el amor y el deseo genuino de ser mejor para ti.
+        </p>
+
+        <p>
+            Sé que cometí un error. Sé que insistí demasiado en algo que tú no querías hacer y que, al hacerlo, no respeté tus sentimientos ni tus límites como debía hacerlo la persona que más te ama. Y aunque ya hemos hablado de ello, aunque tu inmenso corazón decidió perdonarme, necesito que sepas que no tomo ese perdón a la ligera.
+        </p>
+
+        <p>
+            No quiero que estas palabras sean otra promesa vacía. Sé que te he dicho antes que no volvería a pasar y entiendo que quizá sea difícil creer completamente en mí. Por eso hoy no quiero convencerte con discursos perfectos; quiero demostrártelo con hechos, con cambios reales, con decisiones diferentes. Porque amarte también significa escucharte, respetarte y cuidar aquello que te hace sentir segura y tranquila.
+        </p>
+
+        <p>
+            Gracias por haber tenido la paciencia de hablar conmigo. Gracias por perdonarme aun cuando estabas herida. Y gracias, sobre todo, por pedirme que no volviéramos a tocar este tema. Entendí que no quieres quedarte atrapada en el dolor ni revivir constantemente aquello que ya decidiste dejar atrás. Y por amor a ti, respetaré eso también.
+        </p>
+
+        <p>
+            Solo quiero que esta noche recuerdes algo: te amo profundamente. Te amo más allá de mis errores y de mis imperfecciones. Te amo con la intención sincera de crecer, de corregirme y de convertirme cada día en una mejor versión de mí para ti y para nosotros.
+        </p>
+
+        <p>
+            No puedo cambiar lo que ya pasó, pero sí puedo decidir qué hombre quiero ser a partir de ahora. Y elijo ser uno que te escuche más, que te cuide mejor y que jamás olvide que tu amor no es una obligación ni un derecho adquirido, sino el regalo más hermoso que la vida me ha dado.
+        </p>
+
+        <p>
+            Perdóname por haberte hecho sentir presionada cuando lo único que mereces es sentirte amada, respetada y libre de ser tú misma.
+        </p>
+
+        <p>
+            Te prometo que mi amor por ti no volverá a expresarse desde la insistencia, sino desde la comprensión; no desde el egoísmo, sino desde el respeto; no desde el miedo a perderte, sino desde la gratitud inmensa de tenerte.
+        </p>
+
+        <p>
+            Te amo con toda mi alma, con cada latido y con cada sueño que imagino a tu lado.
+        </p>
+
+        <p>
+            Y esta noche, más que pedirte perdón otra vez, quiero agradecerte por seguir tomando mi mano y enseñarme que el verdadero amor también sabe reconocer sus errores y aprender de ellos.
+        </p>
+
+        <div class="firma">
+
+            <p class="amor">
+                Con todo mi amor, hoy y siempre,
+            </p>
+
+            <p>
+                <strong>Tu amor.</strong>
+            </p>
+
+            <div class="nombre">
+                JUAN KALETH MENDOZA PRIMERA ❤️
+            </div>
+
+        </div>
+
+        <div class="frase-neon">
+            "Y si algún día las estrellas olvidaran cómo brillar, yo aprendería a encender el universo con la inmensidad de mi amor por ti, porque entre todos los milagros que la vida pudo regalarme, el más hermoso siempre será despertar sabiendo que existes, que sonríes y que llevas tu nombre escrito para siempre en el rincón más sagrado de mi corazón... <strong>VALERIA PETRO VILLAZÓN.</strong>"
+        </div>
+
+        <div class="boton-poema">
+
+            <a href="PEGA_AQUI_EL_LINK_DEL_POEMA" target="_blank">
+                ✨ Presiona aquí para descubrir el poema que escribí para ti ✨
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+  </html>
